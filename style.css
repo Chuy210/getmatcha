@@ -264,7 +264,20 @@ footer>.parte2{
     display: inline;
 }
 footer>.parte3{
-    background-color: steelblue;
+    /* background-color: steelblue; */
     grid-area: parte3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.parte3>.logos{
+    display: flex;
+    align-items: center;
+}
+.logos>*{
+    margin-right: 15px;
+}
+.parte3>p{
+    font-size: 12px;
+}
