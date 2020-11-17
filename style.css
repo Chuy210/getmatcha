@@ -219,10 +219,11 @@ body{
 
 .seccion-3{
     padding-bottom: 200px;
+
 }
 .seccion-3>.img-features{
     display: grid;
-    grid-template-columns: repeat(auto-fill,432px);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 
 }
 .seccion-3>.img-features>*{
@@ -232,6 +233,7 @@ body{
 }
 .seccion-3>.img-features>div>img{
     border-radius: 10px;
+    width: 100%;
 }
 .seccion-3>.img-features>div>*{
     font-size: 18px;
