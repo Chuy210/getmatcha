@@ -122,3 +122,56 @@ a:hover {
     z-index: 6;
  }
 /* ---------------------MAIN SEGUNDA SECCION---------------------- */
+
+.seccion-2{
+    padding-top: 20px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccion-2>p{
+    font-size: 13px;
+    color: gray;
+}
+.sec2-img>img{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* ---------------------MAIN TERCERA SECCION---------------------- */
+/* .features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.features>h2{
+    font-size: 50px;
+}
+.seccion-3{
+    padding-bottom: 200px;
+
+}
+.seccion-3>.img-features{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+}
+.seccion-3>.img-features>*{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.seccion-3>.img-features>div>img{
+    border-radius: 10px;
+    width: 100%;
+}
+.seccion-3>.img-features>div>img:hover{
+    cursor: pointer;
+}
+.seccion-3>.img-features>div>*{
+    font-size: 18px;
+} */
+
