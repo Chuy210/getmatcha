@@ -1,0 +1,124 @@
+/* body{
+    background-color: cornsilk;
+} */
+nav{
+    height: 200px;
+}
+a:link {
+    color: #025157;
+    text-decoration: none;
+  }
+  a:visited {
+    color:#025157;
+    text-decoration: none;
+  }
+a:hover {
+    cursor: pointer;
+    color: #025157;
+    text-decoration: underline;
+  }
+  a:active {
+    color: #025157;
+    text-decoration: none;
+  }
+  /* ---------------------MAIN PRIMER SECCION---------------------- */
+.part1{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.part1>.subtitulo{
+    font-family: "vesterbroextrabold,Arial,sans-serif";
+    padding-top: 10vh;
+    width: 50%;
+    font-size: 50px;
+}
+.part1>.description{
+    padding-top: 20px;
+    font-size: 17px;
+}
+.part1>.container-free{
+    padding-top: 20px;
+    display: flex;
+}
+.container-free>*{
+    padding: 10px;
+}
+.free-trial{
+    color: white;
+    border-radius: 5px;
+    background-color: #67b54b;
+}
+.container-free>.free-trial:hover{
+    cursor: pointer;
+}
+.container-free>.free-trial>a:link{
+    color: #fff;
+    text-decoration: none;
+  }
+  .container-free>.free-trial>a:visited {
+    color:#fff;
+    text-decoration: none;
+  }
+.container-free>.free-trial>a:hover {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+  }
+  .container-free>.free-trial>a:active {
+    color: #fff;
+    text-decoration: none;
+  }
+.blog{
+    color:grey;
+    font-size: 11px;
+}
+.blog>strong{
+    color:grey;
+    font-size: 11px;
+}
+
+.uno {
+    position: absolute;
+    left: 180px;
+    top: 5px; 
+    
+    z-index: 1;
+ }
+
+ .dos {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    z-index: 2;
+ }
+
+ .tres {
+    position: absolute;
+    left: 380px;
+    top: 200px;
+    z-index: 3;
+ }
+
+ .cuatro {
+    position: absolute;
+    left: 400px;
+    top: 320px;
+    z-index: 4;
+ }
+
+ .cinco {
+    position: absolute;
+    left: 207px;
+    top: 280px;
+    z-index: 5;
+ }
+ .seis {
+    position: absolute;
+    left: 60px;
+    top: 295px;
+    z-index: 6;
+ }
+/* ---------------------MAIN SEGUNDA SECCION---------------------- */

@@ -4,56 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="" />
-    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <link rel="stylesheet" href="styleboot.css">
     <title>Getmatcha</title>
 </head>
 <body>
     <header class="container-header">
-        <a href="index.html" class="logo" target="_blank">
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary text-dark "></nav>
             <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
-              alt="Matcha"
-            /> </a>
-            <nav class="navbar">
+              alt="Matcha" class="navbar-brand"
+            /> 
+           <ul>
               <li class="menu-item"><a href=""> Products</a></li>
               <li class="menu-item"><a href=""> Templates</a></li>
               <li class="menu-item"><a href=""> Pricing</a></li>
               <li class="menu-item"><a href=""> Customers</a></li>
               <li class="menu-item"><a href=""> Blog</a></li>
               <li class="menu-item"><a href=""> Resources</a></li>
-            </nav>
+            </ul>
             <div class="actions">
             <a class="sign-in" target="_blank">Sign In</a>
             <div class="boton"><a href="https://app.getmatcha.com/sso/register?" target="_blank">Get started free</a></div>
+          </div> -->
+          <!-- Nuestra barra de navegación comentada va aquí -->
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand pl-md-5" href="#"> <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
+      alt="Matcha"
+    /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto ">       
+        <li class="nav-item dropdown px-md-3">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" > Products </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Blog creator</a>
+            <a class="dropdown-item" href="#">Content Library</a>
           </div>
+        </li>
+              <li class="nav-item px-md-3"><a href="" class="nav-link"> Templates</a></li>
+              <li class="nav-item px-md-3"><a href="" class="nav-link"> Pricing</a></li>
+              <li class="nav-item px-md-3"><a href="" class="nav-link"> Customers</a></li>
+              <li class="nav-item px-md-3"><a href="" class="nav-link"> Blog</a></li>
+              <li class="nav-item dropdown px-md-3">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" > Resources </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Blog creator</a>
+                  <a class="dropdown-item" href="#">Content Library</a>
+                </div>
+              </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0 pr-md-5" >
+        <a href="" class="form-link mr-sm-2 px-md-4"> Sign in</a>
+        <button class="btn btn-outline-success my-2 my-lg-0 " type="submit"> started free
+        </button>
+      </form>
+    </div>
+  </nav>
     </header>
     <main class="container-main">
         <section class="introduction">
-            <div class="part1">
-                <h3 class="subtitulo">Stop paying for visits with an SEO optimized blog.</h3>
-                <p class="description">Blog better with the first all-in-one blogging tool for growing ecommerce brands. Connect your blog, create and optimize blog posts for each stage of the buyer’s journey, and measure the results.</p>
-                <div class="container-free">
-                  <div class="free-trial">
-                      <a href="https://app.getmatcha.com/sso/register" target="_blank">Start free trial</a>
-                  </div>
-                  <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/shopify-stars.svg" alt="shopify" class="shopify">
-                </div>
-                <p class="blog">Blog better today with a <strong>free 7-day trial.<br>
-                   No credit card</strong>required.</p>
-            </div>
-            <div class="part2">
-                <video controls>
-                    <source
-                      type="video/webm"
-                      src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
-                    />
-                    <source
-                      type="video/mp4"
-                      src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-                    />
-                  </video>
-            </div>
+            <div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="part1">
+        <h3 class="subtitulo">Stop paying for visits with an SEO optimized blog.</h3>
+        <p class="description">Blog better with the first all-in-one blogging tool for growing ecommerce brands. Connect your blog, create and optimize blog posts for each stage of the buyer’s journey, and measure the results.</p>
+        <div class="container-free">
+          <div class="free-trial">
+              <a href="https://app.getmatcha.com/sso/register" target="_blank">Start free trial</a>
+          </div>
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/shopify-stars.svg" alt="shopify" class="shopify">
+        </div>
+        <p class="blog">Blog better today with a <strong>free 7-day trial.<br>
+           No credit card</strong>required.</p>
+    </div>
+    </div>
+    <div class="col">
+      <div class="part2">
+        <div class="uno">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/play/1.png">
+        </div>
+      
+        <div class="dos">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/play/2.png">
+        </div>
+      
+        <div class="tres">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/play/3.png">
+        </div>
+      
+        <div class="cuatro">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/play/5.png">
+        </div>
+      
+        <div class="cinco">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/play/6.png">
+        </div>	
+        <div class="seis">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/play/4.png">
+        </div>	
+    </div>
+    </div>
+  </div>
         </section>
-        <section class="seccion-2">
+        <!-- <section class="seccion-2">
             <p>TRUSTED BY GROWING ECOMMERCE BRANDS</p>
             <div class="sec2-img">
             <img src="https://getmatcha.com/wp-content/uploads/2020/08/superfeet.png" alt="SuperFeet">
@@ -124,10 +189,10 @@
                   <p>Explore a library of 12,000+ SEO-friendly articles. Customize to your brand, add conversion tools, and publish instantly to your blog.</p>
               </div>
           </div>
-        </section>
+        </section> -->
     </main>
 
-    <footer>
+    <!-- <footer>
         <section class="parte1">
             <p>SUBSCRIBE</p>
             <p>Get the latest tips and trends for ecommerce marketing with the weekly Morning Matcha.</p>
@@ -176,7 +241,23 @@
             </div>
             <p class="terminos">© 2020 Matcha. All Rights Reserved</p>
         </section>
-    </footer>
+    </footer> -->
     
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
 </body>
 </html>
